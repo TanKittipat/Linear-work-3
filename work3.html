@@ -1,0 +1,17 @@
+<script>
+  function createMatrix(rows, columns) {
+    let matrix = new Array(rows);
+    for (let i = 0; i < rows; i++) {
+      matrix[i] = new Array(columns).fill(rows[i]);
+    }
+    return matrix;
+  }
+  a = [
+    [9, 9, 9, 9, 9, 9, 9, 9],
+    [9, 9, 9, 9, 9, 9, 9, 9],
+    [9, 9, 9, 9, 9, 9, 9, 9],
+    [9, 9, 9, 9, 9, 9, 9, 9],
+  ];
+  console.log(a.length);
+  console.log(a[0].length);
+</script>
