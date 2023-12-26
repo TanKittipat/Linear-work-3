@@ -35,7 +35,6 @@ let matrixB = [
   [7, 7],
   [6, 6],
   [5, 5],
-  [4, 4],
 ];
 console.log(matrixA);
 console.log(matrixB);
