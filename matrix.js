@@ -27,8 +27,16 @@ function multiplyMatrices(matrixA, matrixB) {
   return resultMatrix;
 }
 
-let matrixA = [[1, 4, 5]];
-let matrixB = [[4], [6], [1]];
+let matrixA = [
+  [9, 9, 9],
+  [8, 8, 8],
+];
+let matrixB = [
+  [7, 7],
+  [6, 6],
+  [5, 5],
+  [4, 4],
+];
 console.log(matrixA);
 console.log(matrixB);
 console.log(multiplyMatrices(matrixA, matrixB));
